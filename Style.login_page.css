@@ -1,0 +1,33 @@
+article{
+    margin-left: 10%;
+    margin-top: 30%;
+
+}
+
+
+
+.container{
+    margin-top: 15%;
+    margin-left: 30%;
+    position: fixed;
+    background-color: #727070;
+    width: 33%;
+    height: 60%;
+}
+input{
+    text-align: center;
+}
+
+sub{
+    position: absolute;
+
+    font-size: 10px;
+}
+.homepage{
+    margin-left: 5%;
+    margin-right: 60%;
+    background-color: coral;
+}
+
+
+}
