@@ -1,12 +1,18 @@
+html{
+    background-image: url("cockpit.jpg");
+    background-size: cover;
+}
+
+
 .map{
     float: left;
-    height: 80%;
-    width: 50%;
+    height: 60%;
+    width: 44%;
     display: block;
     box-sizing: border-box;
     position: fixed;
-    background-color: cornflowerblue;
-    padding: 15px 15px 15px 15px;
+    margin-left: 5%;
+
 }
 .size{
     width: 600px;
@@ -16,13 +22,42 @@
     min-width: 20%;
     min-height: 20%;
 }
+
+.lore{
+    margin-left: 15%;
+    width:70%;
+    text-align: center;
+    padding: 5px;
+    background-color: rgba(225, 237, 246, 0.6);
+}
 .info{
     float: right;
-    width: 50%;
+    width: 51%;
     display: block;
     box-sizing: border-box;
-    position: inherit;
-    padding: 10px 10px 10px 10px;
-    background-color: orange;
-
+    padding: 12px;
+    background-color: rgba(208, 230, 252, 0.6);
+}
+.score{
+    margin-top: 5%;
+    width: 51%;
+    float: right;
+    display: block;
+    box-sizing: border-box;
+    background-color: rgba(208, 230, 252, 0.6);
+    margin-left: 50%;
+    padding: 12px;
+}
+.user{
+    width: 51%;
+    float: right;
+    display: block;
+    box-sizing: border-box;
+    background-color: rgba(208, 230, 252, 0.6);
+    margin-left: 50%;
+    padding: 12px;
+    margin-top: 5%;
+}
+iframe{
+    border-color: #000000;
 }

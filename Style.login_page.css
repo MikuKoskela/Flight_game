@@ -1,11 +1,18 @@
+html{
+    background-image: url("Planeinwoods.jpg");
+    background-size: cover;
+    margin-bottom: 15%;
+}
+
 .container{
-    margin-top: 6%;
+    margin-top: 10%;
     margin-left: 30%;
     display: inline-flex;
-    background-color: #727070;
+    background-color: rgba(0, 0, 0, 0.4);
     width: 40%;
     height: 70%;
 }
+
 input{
     margin-top: 7%;
     margin-block-end: 5%;
@@ -13,21 +20,26 @@ input{
     width: 70%;
 }
 h1{
+    background: rgba(239, 247, 253, 0.6);
     text-align: center;
     margin-top: 25%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: block;
+    padding-bottom: 3px;
 }
 .button1{
     display: block;
     float: left;
     padding: 3px;
-    background-color: #fc4949;
+    background-color: rgba(111, 220, 245, 0.7);
 }
 .button2{
     padding: 3px 3px;
     float: right;
     margin-top: 7%;
     display: block;
-    background-color: #fc4949;
+    background-color: rgba(111, 220, 245, 0.7);
 }
 .credentials{
     margin-block: 5%;
