@@ -1,0 +1,28 @@
+.map{
+    float: left;
+    height: 80%;
+    width: 50%;
+    display: block;
+    box-sizing: border-box;
+    position: fixed;
+    background-color: cornflowerblue;
+    padding: 15px 15px 15px 15px;
+}
+.size{
+    width: 600px;
+    height: 500px;
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 20%;
+    min-height: 20%;
+}
+.info{
+    float: right;
+    width: 50%;
+    display: block;
+    box-sizing: border-box;
+    position: inherit;
+    padding: 10px 10px 10px 10px;
+    background-color: orange;
+
+}

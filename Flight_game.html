@@ -4,24 +4,35 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link href="Style.flight_game.css" rel="stylesheet">
-    <script rel="Actions.flight_game" defer></script>
+    <script src="Actions.flight_game.js" defer></script>
 </head>
 <body>
+<div class="container">
 
-            <nav>
+<nav>
             <div class="main-nav">
-                <a href="Login_page.html" type="refresh" rel="signin">Sign in</a>
+                <a href="Login_page.html"><button class="signin">Sign in</button></a>
             </div>
             </nav>
-<div class="container">
+
     <article class="Header">
         <h1>Flight game</h1>
-        <button class="block" >Play</button>
+        <a href="Game.flight_game.html"><button class="block" >Play</button></a>
 
+    <div class="difficulty">
+        <label for="dropdown"><b>Difficulty:</b></label>
+       <div class="select">
+        <select id="dropdown">
+     <option>Easy</option>
+        <option>Medium</option>
+        <option>Hard</option>
 
-</article>
+        </select>
+</div>
+    </div>
+    </article>
+
             </div>
-
 
 </body>
 </html>

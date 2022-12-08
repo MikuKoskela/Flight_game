@@ -1,31 +1,13 @@
 .container {
     width: 80%;
-    height: 90%;
-    margin-top: 10%;
     margin-left: 10%;
-    background-color: lightslategray;
+    background-image: url("Planeinwoods.jpg");
+    background-size: cover;
 }
 
-
-
-
-
-
-.card{
-    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.25);
-    transition: 0.3s;
-    border-radius: 5px;
-    display: inline-block;
-    width: 25%;
-    margin-left: 5%;
-    background-color: rgba(87, 84, 84, 0.7)
-
-}
-.card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
-}
 
 h1{
+
     font-size: 35px;
     margin-top: 20%;
     text-align: center;
@@ -43,39 +25,23 @@ h4{
     position: center;
 
 }
-.logo{
-
-}
 
 html{
-    background-color: #777575;
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .main-nav:hover {
-    display: inline-block;
-    background-color: rgba(245, 104, 8, 0.7);
-    height: 45px;
+    padding: 3px 3px;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
 
 }
 .main-nav{
     float: right;
     display: inline-block;
-    color: #727070;
+
     font-size: 20px;
-
 }
-
-nav {
-    width: 4%;
-    margin-left: 90%;
-    height: 45px;
-    box-sizing: border-box;
-    background-color: rgba(63, 63, 63, 0.6);
-    position: fixed;
-    opacity: 85%;
-
-}
-
 
 article {
     background-color: rgba(23, 22, 22, 0.3);
@@ -87,8 +53,8 @@ article {
 
 .Header{
     padding-top: 20%;
-    margin-right: 30%;
-    margin-left: 30%;
+    margin-right: 20%;
+    margin-left: 20%;
 }
 .block{
     display: block;
@@ -96,41 +62,39 @@ article {
     width: 60%;
     height: 30%;
     padding: 14px 28px 20px 20px;
-    font-size: 16px;
+    font-size: 20px;
     cursor: pointer;
     margin-left: 20%;
     background-color: #fc4949;
-    opacity: 70%;
+    opacity: 80%;
+    text-emphasis: none;
 }
 .block:hover{
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
 }
-
-
-
-
-
-caption{
-    font-size: smaller
+.difficulty{
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 30%;
 }
-figure {
-  text-align: center;
-  font-style: italic;
-  font-size: smaller;
+label.difficulty{
+    display: block;
+    background-color: #fc4949;
 }
-figcaption{
-    margin-left: 10%;
+option{
+    background-color: rgb(220, 238, 255, 0.6);
 }
-.map{
-    display: inline-block;
-    vertical-align: middle;
-    float: right;
-    margin-right: 10%;
-}
-.text{
-    margin-left: 5%;
-    font-size: 70%;
-    display: inline-block;
-    vertical-align: middle;
+select{
 
+    border-color: rgba(0,0,0,1);
+    padding: 1px;
+    background-color: rgb(220, 238, 255, 0.6);
 }
+.signin{
+
+    margin-bottom: 3px;
+    border-color: rgba(0, 0, 0);
+    background-color: rgb(220, 238, 255, 0.6);
+}
+
+

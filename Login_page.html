@@ -4,23 +4,28 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link href="Style.login_page.css" rel="stylesheet">
+    <script src="Actions.login_page.js" defer></script>
 </head>
-<div class="container">
+
 <body>
-<div class="homepage">
-<a href="Flight_game.html" target="homepage" rel="homepage">Home</a>
-</div>
+<div class="container">
 <article>
+<div class="button1">
+<a href="Flight_game.html"><button>Home</button></a>
+</div>
+
 <h1>Flight game</h1>
 <div class="credentials">
-<label><b>Username:</b></label>
-    <input type="text" name="username"  placeholder="Enter username">
-    <sub>(Use 4 to 10 characters)</sub>
-<label><b>Password:</b></label>
-    <input type="text" name="password"  placeholder="Enter password">
+<label for="username"><b>Username:</b></label>
 
-       <button name="submit" type="submit">Login/Create user</button>
+    <input id="username" type="text" name="username"  placeholder="Enter username">
+
+<label for="password"><b>Password:</b></label>
+    <input id="password" type="text" name="password"  placeholder="Enter password">
 </div>
+    <div class="button2">
+       <button name="submit" type="submit">Login/Create user</button>
+    </div>
 
 </article>
 

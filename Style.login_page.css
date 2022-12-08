@@ -1,33 +1,36 @@
-article{
-    margin-left: 10%;
-    margin-top: 30%;
-
-}
-
-
-
 .container{
-    margin-top: 15%;
+    margin-top: 6%;
     margin-left: 30%;
-    position: fixed;
+    display: inline-flex;
     background-color: #727070;
-    width: 33%;
-    height: 60%;
+    width: 40%;
+    height: 70%;
 }
 input{
+    margin-top: 7%;
+    margin-block-end: 5%;
     text-align: center;
+    width: 70%;
+}
+h1{
+    text-align: center;
+    margin-top: 25%;
+}
+.button1{
+    display: block;
+    float: left;
+    padding: 3px;
+    background-color: #fc4949;
+}
+.button2{
+    padding: 3px 3px;
+    float: right;
+    margin-top: 7%;
+    display: block;
+    background-color: #fc4949;
+}
+.credentials{
+    margin-block: 5%;
+    margin-left: 10%;
 }
 
-sub{
-    position: absolute;
-
-    font-size: 10px;
-}
-.homepage{
-    margin-left: 5%;
-    margin-right: 60%;
-    background-color: coral;
-}
-
-
-}
