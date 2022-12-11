@@ -5,17 +5,26 @@
     <title>Title</title>
     <link href="Style.game.css" rel="stylesheet">
     <script src="Actions.game.js" defer> </script>
+
 </head>
 <body>
 <nav>
-<a href="Flight_game.html"><button>Home</button></a>
+<a href="Flight_game.html"><button class="home">Home</button></a>
 </nav>
-<article class="lore">
-    <p> Place lore here:</p>
+<article  class="lore">
+        <p class="start_screen"> place lore here</p>
 </article>
 <article>
     <div class="map">
-<iframe class="size" src="https://api.maptiler.com/maps/basic-v2/?key=rmlQAa5LNCzqwcXd7hDu#-0.2/3.38148/-37.41792"></iframe>
+<iframe class="size" src="https://api.maptiler.com/maps/basic-v2/?key=rmlQAa5LNCzqwcXd7hDu#-0.2/3.38148/-37.41792">
+    <script>
+    const xhr = new XMLHttpRequest(); //Almost worked
+xhr.open('GET', 'https://api.maptiler.com/maps/basic-v2/?key=rmlQAa5LNCzqwcXd7hDu#-0.2/3.38148/-37.41792', true);
+xhr.withCredentials = true;
+Samesite= 'None; secure;'
+xhr.send(null);
+    </script>
+</iframe>
 </div>
 </article>
 
@@ -28,14 +37,20 @@
 
 <div class="score">
     <article>
-        <p>Score</p>
+        <p>Score:</p>
     </article>
     </div>
     <div class="user">
         <article>
-            <p>User info</p>
+            <p>User info:</p>
         </article>
         </div>
+
+    <div id="consent-popup" class="hidden">
+        <p>By using our site you agree to our <a href="#">Terms and conditions</a>.
+            Please <a id="accept" href="#">Accept</a> these before using our site.
+        </p>
+    </div>
 
 
 </body>

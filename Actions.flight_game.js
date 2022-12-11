@@ -14,7 +14,6 @@ function check_difficulty() {
 }
 function login_page(){
 
-
 }
 
 
