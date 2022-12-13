@@ -85,3 +85,9 @@ iframe{
 #consent-popup.hidden {
     opacity: 0;
 }
+#point:hover{
+}
+#hints{
+    text-script: Action;
+}
+

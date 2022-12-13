@@ -5,7 +5,14 @@
     <title>Title</title>
     <link href="Style.game.css" rel="stylesheet">
     <script src="Actions.game.js" defer> </script>
-
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+          integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+          crossorigin=""/>
+    <script class="map"
+            src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+            integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+            crossOrigin="">
+    </script>
 </head>
 <body>
 <nav>
@@ -15,23 +22,23 @@
         <p class="start_screen"> place lore here</p>
 </article>
 <article>
-    <div class="map">
-<iframe class="size" src="https://api.maptiler.com/maps/basic-v2/?key=rmlQAa5LNCzqwcXd7hDu#-0.2/3.38148/-37.41792">
-    <script>
-    const xhr = new XMLHttpRequest(); //Almost worked
-xhr.open('GET', 'https://api.maptiler.com/maps/basic-v2/?key=rmlQAa5LNCzqwcXd7hDu#-0.2/3.38148/-37.41792', true);
-xhr.withCredentials = true;
-Samesite= 'None; secure;'
-xhr.send(null);
-    </script>
+    <div class="map" >
+<iframe class="size" id="map">
 </iframe>
 </div>
 </article>
 
-
 <div class="info">
 <article>
     <p>Objects to find:</p>
+    <p onmouseover="show_hints(1)" id="object1"></p>
+    <p onmouseover="show_hints(2)" id="object2"></p>
+    <p onmouseover="show_hints(3)" id="object3"></p>
+    <p onmouseover="show_hints(4)" id="object4"></p>
+    <iframe height=80px width=600px id="hints" src=""></iframe>
+
+
+
 </article>
 </div>
 
